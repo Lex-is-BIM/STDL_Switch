@@ -1,0 +1,171 @@
+{
+    "metadata": {
+        "defaultName": "Встроенный электрический щит",
+        "description": "Встроенный электрический щит",
+        "version": "0.0.1",
+        "author": "Эпов Алексей"
+    },
+    "styleParameters": [
+        {
+            "name": "General",
+            "text": "Общие",
+            "params": [
+                {
+                    "name": "Width",
+                    "text": "Ширина",
+                    "type": "Length",
+                    "default": "350",
+                    "min": "100",
+                    "max": "2000"
+                },
+                {
+                    "name": "Height",
+                    "text": "Высота",
+                    "type": "Length",
+                    "default": "250",
+                    "min": "20",
+                    "max": "2000"
+                },
+                {
+                    "name": "Thickness",
+                    "text": "Глубина",
+                    "type": "Length",
+                    "default": "120",
+                    "min": "80",
+                    "max": "1000"
+                },
+                {
+                    "name": "OffsetConnectionPoints",
+                    "text": "Смещение точек подключения",
+                    "type": "Length",
+                    "default": "10",
+                    "min": "0",
+                    "max": "100"
+                }
+
+            ]
+        }
+    ],
+    "ports": [
+        {
+            "name": "Inlet1",
+            "text": "1",
+            "flowDirection": "Inlet",
+            "systemCategories": [
+                "LightingCircuit",
+                "PowerCircuit",
+                "OtherElectricalSystem"
+            ]
+        },
+        {
+            "name": "Inlet2",
+            "text": "2",
+            "flowDirection": "Inlet",
+            "systemCategories": [
+                "LightingCircuit",
+                "PowerCircuit",
+                "OtherElectricalSystem"
+            ]
+        },
+        {
+            "name": "Outlet1",
+            "text": "1",
+            "flowDirection": "Outlet",
+            "systemCategories": [
+                "LightingCircuit",
+                "PowerCircuit",
+                "OtherElectricalSystem"
+            ]
+        },
+        {
+            "name": "Outlet2",
+            "text": "2",
+            "flowDirection": "Outlet",
+            "systemCategories": [
+                "LightingCircuit",
+                "PowerCircuit",
+                "OtherElectricalSystem"
+            ]
+        },
+        {
+            "name": "Outlet3",
+            "text": "3",
+            "flowDirection": "Outlet",
+            "systemCategories": [
+                "LightingCircuit",
+                "PowerCircuit",
+                "OtherElectricalSystem"
+            ]
+        },
+        {
+            "name": "Outlet4",
+            "text": "4",
+            "flowDirection": "Outlet",
+            "systemCategories": [
+                "LightingCircuit",
+                "PowerCircuit",
+                "OtherElectricalSystem"
+            ]
+        },
+        {
+            "name": "Outlet5",
+            "text": "5",
+            "flowDirection": "Outlet",
+            "systemCategories": [
+                "LightingCircuit",
+                "PowerCircuit",
+                "OtherElectricalSystem"
+            ]
+        },
+        {
+            "name": "Outlet6",
+            "text": "6",
+            "flowDirection": "Outlet",
+            "systemCategories": [
+                "LightingCircuit",
+                "PowerCircuit",
+                "OtherElectricalSystem"
+            ]
+        },
+        {
+            "name": "Outlet7",
+            "text": "7",
+            "flowDirection": "Outlet",
+            "systemCategories": [
+                "LightingCircuit",
+                "PowerCircuit",
+                "OtherElectricalSystem"
+            ]
+        },
+        {
+            "name": "Outlet8",
+            "text": "8",
+            "flowDirection": "Outlet",
+            "systemCategories": [
+                "LightingCircuit",
+                "PowerCircuit",
+                "OtherElectricalSystem"
+            ]
+        },
+        {
+            "name": "Outlet9",
+            "text": "9",
+            "flowDirection": "Outlet",
+            "systemCategories": [
+                "LightingCircuit",
+                "PowerCircuit",
+                "OtherElectricalSystem"
+            ]
+        },
+        {
+            "name": "Outlet10",
+            "text": "10",
+            "flowDirection": "Outlet",
+            "systemCategories": [
+                "LightingCircuit",
+                "PowerCircuit",
+                "OtherElectricalSystem"
+            ]
+        }
+    ]
+}
